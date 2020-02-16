@@ -2,4 +2,4 @@
 
 
 rm -rf out
-javac -d out src/**/*.java
+javac -d out --release 8 src/**/*.java

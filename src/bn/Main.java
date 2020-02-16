@@ -9,22 +9,18 @@ public class Main {
 
 
         Board b = new Board("Zina");
-        Board b1 = new Board("Sarra");
-
-        Character[] charArray = { 'a', 'b', 'c', 'd', 'e','f','g','h','i','j' };
-        b.setShips(charArray);
-       // char ch = charArray[i];
-        System.out.println(b+"                          " +b1);
-
-        System.out.println(" "+Arrays.toString(charArray)+"                          " +Arrays.toString(charArray));
-        for(int i=0; i<charArray.length;i++){
-
-            System.out.println(i+"  ............................"+"                          " +i+" ............................");
-
-        }
-        //System.out.print(Arrays.toString(charArray));
+      // Board b1=new Board("sarra");
+        System.out.print(b);
         //System.out.print(b1);
 
-    }
 
+//        int size = 10;
+//        for(int i = 0; i < size; i++) {
+//            int c = 'A' + i;
+//            System.out.printf("%c  ", c);
+//
+//
+//        }
+
+    }
 }

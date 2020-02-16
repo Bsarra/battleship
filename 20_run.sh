@@ -2,6 +2,4 @@
 
 cd out/
 
-
-
 java -jar bn.jar
