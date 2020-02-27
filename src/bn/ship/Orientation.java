@@ -1,4 +1,5 @@
 package bn.ship;
 
-public class Orientation {
+public enum Orientation {
+    NORTH, SOUTH, EAST, WEST
 }
